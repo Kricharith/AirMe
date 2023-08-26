@@ -190,7 +190,7 @@ class _WeatherCityState extends State<WeatherCity> {
                     ),
                   ),
                   SizedBox(
-                    width: 20,
+                    width: 2,
                   ),
                   Center(
                     child: DropdownButtonHideUnderline(
