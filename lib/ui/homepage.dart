@@ -20,6 +20,7 @@ class _HomepageState extends State<Homepage> {
           backgroundColor: Color.fromARGB(255, 255, 255, 255),
           elevation: 0,
           //centerTitle: true,
+
           title: Text(
             'AirMe',
             style: TextStyle(

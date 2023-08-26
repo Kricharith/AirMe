@@ -164,7 +164,7 @@ class _WeatherCityState extends State<WeatherCity> {
               color: Color.fromARGB(255, 0, 0, 0),
             )),
         title: Text(
-          'Air Quality ',
+          'Air Quality Country ',
           style: TextStyle(fontSize: 25, color: Color.fromARGB(255, 0, 0, 0)),
         ),
       ),
@@ -182,7 +182,7 @@ class _WeatherCityState extends State<WeatherCity> {
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(15, 0, 10, 0),
                     child: Text(
-                      'Select Item',
+                      'Select Country',
                       style: TextStyle(
                         fontFamily: 'Readex Pro',
                         fontSize: 20,
@@ -197,7 +197,7 @@ class _WeatherCityState extends State<WeatherCity> {
                       child: DropdownButton2<String>(
                         isExpanded: true,
                         hint: Text(
-                          'Select Item',
+                          'Select Country',
                           style: TextStyle(
                             fontSize: 14,
                             color: Theme.of(context).hintColor,
