@@ -114,7 +114,7 @@ class _HomepageState extends State<Homepage> {
           ),
           Container(
             width: 360,
-            height: 300,
+            height: 301,
             decoration: BoxDecoration(color: Colors.white),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8),
